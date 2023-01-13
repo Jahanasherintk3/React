@@ -4,7 +4,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <nav className="navbar navbar-dark bg-dark">
-          <a href="#" className="navbar-brand">States</a>
+          <a href="#" className="navbar-brand">EventHandler</a>
           <div className="ml-auto navbar-expand">
             <ul className="navbar-nav">
               <li className="navbar-list">

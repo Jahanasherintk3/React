@@ -22,12 +22,14 @@ import Count from './States/Count'
 import Bootcount from './States/Bootcount'
 import Product from './States/Product'
 import Product2 from './States/Product2'
+import Eventbindling from './Event/Eventbindling'
+import Eventhandling from './Event/Eventhandling'
 
 
 let App=()=>{
 return <div>
     <Navbar/>
-    <Product/>
+    <Eventhandling/>
    
   
 </div>

@@ -14,13 +14,20 @@ import EmployC from './Props/EmployC'
 import EmployF from './Props/EmployF'
 import NavbarHooks from './Hooks/NavbarHooks'
 import Counter from './Hooks/Counter'
-import Message from './Hooks/Message'
+//import Message from './Hooks/Message'
+import Message from './States/Message'
+import Message2 from './States/Message2'
+import Set from './States/Set'
+import Count from './States/Count'
+import Bootcount from './States/Bootcount'
+import Product from './States/Product'
+import Product2 from './States/Product2'
 
 
 let App=()=>{
 return <div>
-    <NavbarHooks/>
-    <Message/>
+    <Navbar/>
+    <Product/>
    
   
 </div>

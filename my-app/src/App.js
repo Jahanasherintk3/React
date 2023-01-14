@@ -25,11 +25,12 @@ import Product2 from './States/Product2'
 import Eventbindling from './Event/Eventbindling'
 import Eventhandling from './Event/Eventhandling'
 import One from './LifeCycle/One'
+import Form from './FormHandling/Form'
 
 let App=()=>{
 return <div>
     <Navbar/>
-    <One/>
+    <Form/>
    
   
 </div>

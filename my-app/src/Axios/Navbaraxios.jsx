@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 class Navbarrouting extends Component{
     render(){
         return <nav className="navbar navbar-dark bg-dark navbar-expand">
-            <Link to="/" className="navbar-brand">React Routing</Link>
+            <Link to="/" className="navbar-brand">React Axios</Link>
             <div className="ml-auto">
                 <ul className="navbar-nav">
                     <li className="nav-list"><Link className="nav-link" to="/users">Users</Link></li>

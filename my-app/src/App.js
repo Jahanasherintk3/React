@@ -1,32 +1,39 @@
 import React, { Component } from 'react'
-import Navbaraxios from './Axios/Navbaraxios'
-import Home from './Routing/Home'
-import About from './Routing/About'
-import Services from './Routing/Services'
-import Contact from './Routing/Contact'
-import User from './Axios/User'
+import Navbar from './Navbar/Navbar'
+//import Message from './Sample/Message'
+//import Movie from './Sample/Movie'
+//import Student from './Sample/Student'
+//import Students2 from './Sample/Students2'
+//import Prop1 from './Props/Prop1'
+//import Prop2 from './Props/Prop2'
+//import CompA_c-c from './Props/CompA_c-c'
+//import CompB_c-c from './Props/CompB_c-c'
+import CompC from './Props/CompC'
+import CompB from './Props/CompB'
+import EmployC from './Props/EmployC'
+import EmployF from './Props/EmployF'
+import NavbarHooks from './Hooks/NavbarHooks'
+import Counter from './Hooks/Counter'
+//import Message from './Hooks/Message'
+import Message from './States/Message'
+import Message2 from './States/Message2'
+import Set from './States/Set'
+import Count from './States/Count'
+import Bootcount from './States/Bootcount'
+import Product from './States/Product'
+import Product2 from './States/Product2'
+import Eventbindling from './Event/Eventbindling'
+import Eventhandling from './Event/Eventhandling'
+import One from './LifeCycle/One'
+import Form from './FormHandling/Form'
+import Messagehooks from './Hooks/Messagehooks'
+import Productcount from './Hooks/Productcount'
 
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-class App extends Component{
-    render(){
-        return(
-            <div>
-                
-                <Router>
-                    <Navbaraxios/>
-                    <Routes>
-                        <Route path="/users" element={<User/>}/>
-                        <Route path="/home" element={<Home/>}/>
-                        <Route path="/about" element={<About />} />
-                        <Route path="/services" element={<Services />} />
-                        <Route path="/contact" element={<Contact />} />
-                      
-                    </Routes>
-                </Router>
-            </div>
-        )
-    }
+let App=()=>{
+return <div>
+    <NavbarHooks/>
+    <Productcount/>
+</div>
 }
-   
 export default App;
 

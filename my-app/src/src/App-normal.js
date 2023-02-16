@@ -32,8 +32,8 @@ import Digital from './Hooks/Digital'
 
 let App=()=>{
 return <div>
-    <NavbarHooks/>
-    <Digital/>
+    <Navbarcontact/>
+    <ContactApp/>
 </div>
 }
 export default App;

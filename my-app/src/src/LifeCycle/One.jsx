@@ -16,7 +16,7 @@ class One extends Component {
     return (
     <div>
         <h2>Digital Clock</h2>
-        <div className="contain">
+        <div className="container">
             <div className="row">
                 <div className="col-md-6">
                     <div className="card">
